@@ -58,6 +58,7 @@ const auth = useContext(AuthContext)
                                     type="text"
                                     name='email'
                                     className='yellow-input'
+                                    value={form.email}
                                     onChange={changeHandler}
                                 />
                                 <label htmlFor="email">Email</label>
@@ -70,6 +71,7 @@ const auth = useContext(AuthContext)
                                     type="password"
                                     name='password'
                                     className='yellow-input'
+                                    value={form.password}
                                     onChange={changeHandler}
 
                                 />
