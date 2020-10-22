@@ -1,5 +1,6 @@
 {
   "port": 5000,
   "jwtSecret": "illiahopass",
-  "mongoUri": "mongodb+srv://illiaho:illiahopass@cluster0.nynun.mongodb.net/app?retryWrites=true&w=majority"
+  "mongoUri": "mongodb+srv://illiaho:illiahopass@cluster0.nynun.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
 }
