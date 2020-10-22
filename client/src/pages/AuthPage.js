@@ -8,6 +8,10 @@ const auth = useContext(AuthContext)
     const message = useMessage()
     const {loading, request, error, clearError} = useHttp()
 
+    useEffect(()=>{
+        window.M.updateTextFields()
+    }, [])
+
     const [form, setForm] = useState({
         email: '', password: ''
     })
